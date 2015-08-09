@@ -11,13 +11,13 @@ class AdduserdataController extends PluginController
     {
         $this->setLayout('backend');
         $this->assignToLayout('sidebar', new View('../../plugins/skeleton/views/sidebar'));
-	$this->AllUsers = User::findAll();
+	$this->userfindAll = User::findAll();
     }
     
     public function index()
     {
         $this->display('adduserdata/views/users', array(
-		'kint' => @Kint::dump($this->AllUsers)
+		'kint' => @Kint::dump($this->userfindAll)
         ));
         
     }
