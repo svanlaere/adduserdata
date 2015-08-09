@@ -1,5 +1,5 @@
 # Add userdata
-Example plugin that teaches how to add custom data after adding a new user.
+Wolf CMS example plugin on how to add data after creating a new user
 
 ### Note
 remove *-master* from the directoryname
