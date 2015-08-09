@@ -1,1 +1,1 @@
-<?php echo ($kint) ? $kint : 'No data !'; ?>
+<?php echo ($kint) ? $kint : 'No user data !'; ?>
