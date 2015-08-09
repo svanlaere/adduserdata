@@ -29,6 +29,6 @@ function add_user_key($user_name, $user_id)
     Record::update('User', array(
         'user_key' => $random
     ), 'id = :user_id', array(
-        ':user_id' => $user_id
+        ':user_id' => (int) $user_id
     ));
 }
