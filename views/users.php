@@ -1,0 +1,1 @@
+<?php echo ($kint) ? $kint : 'No data !'; ?>
