@@ -8,7 +8,7 @@ Plugin::setInfos(array(
     'title' => 'Add user data',
     'description' => 'Add data to the user table',
     'version' => '0.1.0',
-    'license' => 'GPLv3',
+    'license' => 'MIT',
     'author' => 'svanlaere',
     'website' => 'http://www.wolfcms.org/',
     'update_url' => 'http://www.wolfcms.org/plugin-versions.xml',
